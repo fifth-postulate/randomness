@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/fifth-postulate/randomness/issues"
   },
-  "homepage": "https://github.com/fifth-postulate/randomness#readme"
+  "homepage": "https://github.com/fifth-postulate/randomness#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
 }
