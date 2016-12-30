@@ -4,6 +4,7 @@
   "description": "A workshop on Randomness",
   "main": "package.json",
   "scripts": {
+    "start": "gitbook serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
