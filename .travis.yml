@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - '6.1'
+branches:
+  only:
+    - master
+script:
+  - npm build
+after_success:
+  - npm deploy
+env:
+  global:
+    - secure: >-
+        u/+Pvg1GDmzaiC6yi/dFIlEZTdsD0JSAJe9SrxclX4+qw9ldS6IRXSi5z96HxViCQuUKgqbzx58nyxiAaJ9eyYtciY2jgp+p55/5iQbQ0Jv3JXoO15EWHm3w6vHtHnHioBOVQhTdufQzwUaOnmpaRQCoyHVXCa3ZJ0pytrX1bXlCo6uj9nzl5j0jCoXeFam+vA2hO6nDuVC+cG8c6u6P9ZntwKcvGrw/NA9279BChFhvO/eq0Nxja6ZWV0KVbpvI6ajATeHFXEOyz97mj/LAkRa6ePJFKIqXRbB6GApNk0lzF1BlEwOIYViGePYVaKXupjnJdw1n2QqASj+Q13DlE7rhA/Zgh/D/OHhoKJibhkEOrO8y1MwcfYkJbdf6USVUXJ2/Lc87K+Q+BkFD+NQPaPxpb3SXkQXMZ/DIQndResK13Rmcys0lcFMYad9PyOkNagpRu0nC/rihQVEg+eUa1+uBILBR5/odV9ZL2rcJzQEu3ZoKglFsHLcE5fAcWknVkXaOYmn35luOlkFfJdLm6gqaKpXqMsaFbPJ21CdVdqYTxi4L34vPUMEydbOLTiqlRUwmJi0qKOlzquzkwodvoeqfQuhj1vsRWsQCMlmvOyfPwIVcgTmbi0p+nqKew6FRDiI5yyZuSSeJ/H8p+/vo+a+v2IsGaT2kqrkL154jenk=
