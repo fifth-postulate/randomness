@@ -1,0 +1,28 @@
+{
+  "name": "randomness",
+  "version": "1.0.0",
+  "description": "A workshop on Randomness",
+  "main": "package.json",
+  "scripts": {
+    "start": "gitbook serve",
+    "build": "gitbook build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fifth-postulate/randomness.git"
+  },
+  "keywords": [
+    "randomness",
+    "workshop"
+  ],
+  "author": "Daan van Berkel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fifth-postulate/randomness/issues"
+  },
+  "homepage": "https://github.com/fifth-postulate/randomness#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
+}
