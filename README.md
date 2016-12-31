@@ -1,4 +1,4 @@
-# Randomness
+# Randomness [![Build Status](https://travis-ci.org/fifth-postulate/randomness.svg?branch=master)](https://travis-ci.org/fifth-postulate/randomness)
 This book is a compendium to a workshop about _randomness_. This book will guide
 a participant through the workshop by providing background, direction, exercises
 and projects. These will help cement the participants understanding of the
