@@ -6,7 +6,9 @@
   "scripts": {
     "start": "gitbook serve",
     "build": "gitbook build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf _book",
+    "deploy": "bash deploy.sh",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/fifth-postulate/randomness#readme",
   "devDependencies": {
-    "gitbook-cli": "^2.3.0"
+    "gitbook-cli": "^2.3.0",
+    "travis-encrypt": "^2.1.1"
   }
 }
