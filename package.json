@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/fifth-postulate/randomness#readme",
   "devDependencies": {
-    "gitbook-cli": "^2.3.0"
+    "gitbook-cli": "^2.3.0",
+    "travis-encrypt": "^2.1.1"
   }
 }
